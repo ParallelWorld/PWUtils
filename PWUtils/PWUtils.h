@@ -13,6 +13,7 @@
 #import "PWUtilsMacro.h"
 
 #import "NSArray+PWAdd.h"
+#import "NSDate+PWAdd.h"
 #import "NSMutableArray+PWAdd.h"
 
 #import "UIImage+PWAdd.h"

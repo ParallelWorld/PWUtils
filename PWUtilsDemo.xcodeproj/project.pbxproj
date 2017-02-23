@@ -13,6 +13,7 @@
 		0EB487C31E5ED73F00DC1B64 /* UIResponder+PWAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = 0EB487C21E5ED73F00DC1B64 /* UIResponder+PWAdd.m */; };
 		0EB487C61E5EE7B400DC1B64 /* UIScreen+PWAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = 0EB487C51E5EE7B400DC1B64 /* UIScreen+PWAdd.m */; };
 		0EB487C91E5EE9B500DC1B64 /* UIViewController+PWAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = 0EB487C81E5EE9B500DC1B64 /* UIViewController+PWAdd.m */; };
+		0EB487CC1E5EEC5700DC1B64 /* NSDate+PWAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = 0EB487CB1E5EEC5700DC1B64 /* NSDate+PWAdd.m */; };
 		0EF06DCD1E5ACA7000B84DCF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0EF06DCC1E5ACA7000B84DCF /* main.m */; };
 		0EF06DD01E5ACA7000B84DCF /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0EF06DCF1E5ACA7000B84DCF /* AppDelegate.m */; };
 		0EF06DD31E5ACA7000B84DCF /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0EF06DD21E5ACA7000B84DCF /* ViewController.m */; };
@@ -36,6 +37,8 @@
 		0EB487C51E5EE7B400DC1B64 /* UIScreen+PWAdd.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIScreen+PWAdd.m"; sourceTree = "<group>"; };
 		0EB487C71E5EE9B500DC1B64 /* UIViewController+PWAdd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+PWAdd.h"; sourceTree = "<group>"; };
 		0EB487C81E5EE9B500DC1B64 /* UIViewController+PWAdd.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+PWAdd.m"; sourceTree = "<group>"; };
+		0EB487CA1E5EEC5700DC1B64 /* NSDate+PWAdd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDate+PWAdd.h"; sourceTree = "<group>"; };
+		0EB487CB1E5EEC5700DC1B64 /* NSDate+PWAdd.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDate+PWAdd.m"; sourceTree = "<group>"; };
 		0EF06DC81E5ACA7000B84DCF /* PWUtilsDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PWUtilsDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0EF06DCC1E5ACA7000B84DCF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		0EF06DCE1E5ACA7000B84DCF /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -108,6 +111,8 @@
 			children = (
 				0EB487B71E5ECE5B00DC1B64 /* NSArray+PWAdd.h */,
 				0EB487B81E5ECE5B00DC1B64 /* NSArray+PWAdd.m */,
+				0EB487CA1E5EEC5700DC1B64 /* NSDate+PWAdd.h */,
+				0EB487CB1E5EEC5700DC1B64 /* NSDate+PWAdd.m */,
 				0EF06DE41E5ACB8A00B84DCF /* NSMutableArray+PWAdd.h */,
 				0EF06DE51E5ACB8A00B84DCF /* NSMutableArray+PWAdd.m */,
 				0EF06DE31E5ACB1D00B84DCF /* PWUtils.h */,
@@ -208,6 +213,7 @@
 				0EF06DE61E5ACB8A00B84DCF /* NSMutableArray+PWAdd.m in Sources */,
 				0EB487B91E5ECE5B00DC1B64 /* NSArray+PWAdd.m in Sources */,
 				0EF06DCD1E5ACA7000B84DCF /* main.m in Sources */,
+				0EB487CC1E5EEC5700DC1B64 /* NSDate+PWAdd.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

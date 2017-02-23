@@ -18,26 +18,14 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
-    NSUInteger index = 2;
-    NSMutableArray *array = [NSMutableArray new];
-    [array pw_push:@1];
-    [array pw_push:@2];
-    
-    [array pw_insertObjects:@[@3,@4] atIndex:index];
-    NSLog(@"%@", @(index));
-    [array pw_reverse];
-    NSLog(@"");
+
+    NSDate *date = [NSDate date];
+    NSString *s = [date pw_stringWithFormat:@"yyyy-MM-dd HH:mm:ss"];
+    NSLog(@"%@", s);
 }
+
 - (IBAction)click:(id)sender {
     [self pw_dismissKeyboard];
 }
-
-
-- (void)didReceiveMemoryWarning {
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
-}
-
 
 @end
