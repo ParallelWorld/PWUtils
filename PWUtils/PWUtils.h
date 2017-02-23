@@ -10,10 +10,14 @@
 #define PWUtils_h
 
 
+#import "PWUtilsMacro.h"
 
 #import "NSArray+PWAdd.h"
 #import "NSMutableArray+PWAdd.h"
+
+#import "UIImage+PWAdd.h"
 #import "UIResponder+PWAdd.h"
+#import "UIView+PWAdd.h"
 
 
 #endif /* PWUtils_h */
