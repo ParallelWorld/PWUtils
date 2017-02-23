@@ -7,7 +7,7 @@
 //
 
 #import "ViewController.h"
-#import "NSMutableArray+PWAdd.h"
+#import "PWUtils.h"
 
 
 @interface ViewController ()
@@ -28,6 +28,9 @@
     NSLog(@"%@", @(index));
     [array pw_reverse];
     NSLog(@"");
+}
+- (IBAction)click:(id)sender {
+    [self pw_dismissKeyboard];
 }
 
 

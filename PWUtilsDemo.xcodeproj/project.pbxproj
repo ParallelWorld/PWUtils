@@ -8,6 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		0EB487B91E5ECE5B00DC1B64 /* NSArray+PWAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = 0EB487B81E5ECE5B00DC1B64 /* NSArray+PWAdd.m */; };
+		0EB487BC1E5ED16400DC1B64 /* UIImage+PWAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = 0EB487BB1E5ED16400DC1B64 /* UIImage+PWAdd.m */; };
+		0EB487C01E5ED1B000DC1B64 /* UIView+PWAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = 0EB487BF1E5ED1B000DC1B64 /* UIView+PWAdd.m */; };
+		0EB487C31E5ED73F00DC1B64 /* UIResponder+PWAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = 0EB487C21E5ED73F00DC1B64 /* UIResponder+PWAdd.m */; };
 		0EF06DCD1E5ACA7000B84DCF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0EF06DCC1E5ACA7000B84DCF /* main.m */; };
 		0EF06DD01E5ACA7000B84DCF /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0EF06DCF1E5ACA7000B84DCF /* AppDelegate.m */; };
 		0EF06DD31E5ACA7000B84DCF /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0EF06DD21E5ACA7000B84DCF /* ViewController.m */; };
@@ -20,6 +23,13 @@
 /* Begin PBXFileReference section */
 		0EB487B71E5ECE5B00DC1B64 /* NSArray+PWAdd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+PWAdd.h"; sourceTree = "<group>"; };
 		0EB487B81E5ECE5B00DC1B64 /* NSArray+PWAdd.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+PWAdd.m"; sourceTree = "<group>"; };
+		0EB487BA1E5ED16400DC1B64 /* UIImage+PWAdd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+PWAdd.h"; sourceTree = "<group>"; };
+		0EB487BB1E5ED16400DC1B64 /* UIImage+PWAdd.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+PWAdd.m"; sourceTree = "<group>"; };
+		0EB487BD1E5ED17C00DC1B64 /* PWUtilsMacro.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PWUtilsMacro.h; sourceTree = "<group>"; };
+		0EB487BE1E5ED1B000DC1B64 /* UIView+PWAdd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+PWAdd.h"; sourceTree = "<group>"; };
+		0EB487BF1E5ED1B000DC1B64 /* UIView+PWAdd.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+PWAdd.m"; sourceTree = "<group>"; };
+		0EB487C11E5ED73F00DC1B64 /* UIResponder+PWAdd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIResponder+PWAdd.h"; sourceTree = "<group>"; };
+		0EB487C21E5ED73F00DC1B64 /* UIResponder+PWAdd.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIResponder+PWAdd.m"; sourceTree = "<group>"; };
 		0EF06DC81E5ACA7000B84DCF /* PWUtilsDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PWUtilsDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0EF06DCC1E5ACA7000B84DCF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		0EF06DCE1E5ACA7000B84DCF /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -90,11 +100,18 @@
 		0EF06DE21E5ACABA00B84DCF /* PWUtils */ = {
 			isa = PBXGroup;
 			children = (
-				0EF06DE31E5ACB1D00B84DCF /* PWUtils.h */,
-				0EF06DE41E5ACB8A00B84DCF /* NSMutableArray+PWAdd.h */,
-				0EF06DE51E5ACB8A00B84DCF /* NSMutableArray+PWAdd.m */,
 				0EB487B71E5ECE5B00DC1B64 /* NSArray+PWAdd.h */,
 				0EB487B81E5ECE5B00DC1B64 /* NSArray+PWAdd.m */,
+				0EF06DE41E5ACB8A00B84DCF /* NSMutableArray+PWAdd.h */,
+				0EF06DE51E5ACB8A00B84DCF /* NSMutableArray+PWAdd.m */,
+				0EF06DE31E5ACB1D00B84DCF /* PWUtils.h */,
+				0EB487BD1E5ED17C00DC1B64 /* PWUtilsMacro.h */,
+				0EB487BA1E5ED16400DC1B64 /* UIImage+PWAdd.h */,
+				0EB487BB1E5ED16400DC1B64 /* UIImage+PWAdd.m */,
+				0EB487C11E5ED73F00DC1B64 /* UIResponder+PWAdd.h */,
+				0EB487C21E5ED73F00DC1B64 /* UIResponder+PWAdd.m */,
+				0EB487BE1E5ED1B000DC1B64 /* UIView+PWAdd.h */,
+				0EB487BF1E5ED1B000DC1B64 /* UIView+PWAdd.m */,
 			);
 			path = PWUtils;
 			sourceTree = "<group>";
@@ -171,7 +188,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0EB487BC1E5ED16400DC1B64 /* UIImage+PWAdd.m in Sources */,
+				0EB487C31E5ED73F00DC1B64 /* UIResponder+PWAdd.m in Sources */,
 				0EF06DD31E5ACA7000B84DCF /* ViewController.m in Sources */,
+				0EB487C01E5ED1B000DC1B64 /* UIView+PWAdd.m in Sources */,
 				0EF06DD01E5ACA7000B84DCF /* AppDelegate.m in Sources */,
 				0EF06DE61E5ACB8A00B84DCF /* NSMutableArray+PWAdd.m in Sources */,
 				0EB487B91E5ECE5B00DC1B64 /* NSArray+PWAdd.m in Sources */,
