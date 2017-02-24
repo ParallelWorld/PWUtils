@@ -11,6 +11,7 @@
 
 
 @interface ViewController ()
+@property (weak, nonatomic) IBOutlet UIButton *button;
 
 @end
 
@@ -20,8 +21,7 @@
     [super viewDidLoad];
 
     PW_LOG_VAR(CGSizeMake(32, 23323));
-    
-    self.view.backgroundColor = [UIColor pw_colorWithHex:0xff552e];
+    [self.button pw_setBackgroundColor:UIColor.redColor forState:UIControlStateNormal];
 }
 
 - (IBAction)click:(id)sender {

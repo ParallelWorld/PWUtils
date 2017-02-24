@@ -22,6 +22,7 @@
 #import "NSObject+PWAdd.h"
 #import "NSString+PWAdd.h"
 
+#import "UIButton+PWAdd.h"
 #import "UIColor+PWAdd.h"
 #import "UIDevice+PWAdd.h"
 #import "UIImage+PWAdd.h"
