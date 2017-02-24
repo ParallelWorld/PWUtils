@@ -21,7 +21,7 @@
 
     NSDate *date = [NSDate date];
     NSString *s = [date pw_stringWithFormat:@"yyyy-MM-dd HH:mm:ss"];
-    NSLog(@"%@", s);
+    NSLog(@"%@", @(date.pw_year));
 }
 
 - (IBAction)click:(id)sender {
