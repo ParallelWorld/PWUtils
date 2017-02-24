@@ -13,8 +13,13 @@
 #import "PWUtilsMacro.h"
 
 #import "NSArray+PWAdd.h"
+#import "NSData+PWAdd.h"
 #import "NSDate+PWAdd.h"
+#import "NSDictionary+PWAdd.h"
 #import "NSMutableArray+PWAdd.h"
+#import "NSMutableDictionary+PWAdd.h"
+#import "NSObject+PWAdd.h"
+#import "NSString+PWAdd.h"
 
 #import "UIColor+PWAdd.h"
 #import "UIImage+PWAdd.h"

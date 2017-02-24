@@ -20,7 +20,7 @@
     [super viewDidLoad];
 
     NSDate *date = [NSDate date];
-    NSLog(@"%@", @(date.pw_year));
+    NSLog(@"%@", @(333).pw_toString);
     
     self.view.backgroundColor = [UIColor pw_colorWithHex:0xff552e];
 }
