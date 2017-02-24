@@ -15,6 +15,17 @@
 - (void)pw_encodeWithCoder:(NSCoder *)aCoder;
 - (void)pw_decodeWithCoder:(NSCoder *)aCoder;
 
-- (NSString *)pw_toString;
-
 @end
+
+/// NSObject自动序列化
+#define PW_CODING_IMPLEMENTATION \
+- (instancetype)initWithCoder:(NSCoder *)aDecoder { \
+    self = [super init]; \
+    if (self) { \
+        [self pw_decodeWithCoder:aDecoder]; \
+    } \
+    return self; \
+} \
+- (void)encodeWithCoder:(NSCoder *)aCoder { \
+    [self pw_encodeWithCoder:aCoder]; \
+}

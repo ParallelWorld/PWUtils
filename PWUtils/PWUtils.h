@@ -11,6 +11,7 @@
 
 
 #import "PWUtilsMacro.h"
+#import "PWUtilsFunction.h"
 
 #import "NSArray+PWAdd.h"
 #import "NSData+PWAdd.h"
@@ -22,6 +23,7 @@
 #import "NSString+PWAdd.h"
 
 #import "UIColor+PWAdd.h"
+#import "UIDevice+PWAdd.h"
 #import "UIImage+PWAdd.h"
 #import "UIResponder+PWAdd.h"
 #import "UIScreen+PWAdd.h"

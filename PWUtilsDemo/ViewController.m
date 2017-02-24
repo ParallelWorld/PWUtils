@@ -19,8 +19,7 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
 
-    NSDate *date = [NSDate date];
-    NSLog(@"%@", @(333).pw_toString);
+    PW_LOG_VAR(CGSizeMake(32, 23323));
     
     self.view.backgroundColor = [UIColor pw_colorWithHex:0xff552e];
 }

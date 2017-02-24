@@ -49,11 +49,4 @@
     }
 }
 
-- (NSString *)pw_toString {
-    if ([self isKindOfClass:[NSNumber class]]) {
-        return [(NSNumber *)self stringValue];
-    }
-    return self.description;
-}
-
 @end

@@ -13,3 +13,8 @@
 + (CGFloat)pw_screenScale;
 
 @end
+
+
+#define PW_SCREEN_BOUNDS [UIScreen mainScreen].bounds
+#define PW_SCREEN_WIDTH [UIScreen mainScreen].bounds.size.width
+#define PW_SCREEN_HEIGHT [UIScreen mainScreen].bounds.size.height
