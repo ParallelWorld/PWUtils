@@ -14,6 +14,7 @@
 		0EB487C61E5EE7B400DC1B64 /* UIScreen+PWAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = 0EB487C51E5EE7B400DC1B64 /* UIScreen+PWAdd.m */; };
 		0EB487C91E5EE9B500DC1B64 /* UIViewController+PWAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = 0EB487C81E5EE9B500DC1B64 /* UIViewController+PWAdd.m */; };
 		0EB487CC1E5EEC5700DC1B64 /* NSDate+PWAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = 0EB487CB1E5EEC5700DC1B64 /* NSDate+PWAdd.m */; };
+		0EB487CF1E602AFB00DC1B64 /* UIColor+PWAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = 0EB487CE1E602AFB00DC1B64 /* UIColor+PWAdd.m */; };
 		0EF06DCD1E5ACA7000B84DCF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0EF06DCC1E5ACA7000B84DCF /* main.m */; };
 		0EF06DD01E5ACA7000B84DCF /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0EF06DCF1E5ACA7000B84DCF /* AppDelegate.m */; };
 		0EF06DD31E5ACA7000B84DCF /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0EF06DD21E5ACA7000B84DCF /* ViewController.m */; };
@@ -39,6 +40,8 @@
 		0EB487C81E5EE9B500DC1B64 /* UIViewController+PWAdd.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+PWAdd.m"; sourceTree = "<group>"; };
 		0EB487CA1E5EEC5700DC1B64 /* NSDate+PWAdd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDate+PWAdd.h"; sourceTree = "<group>"; };
 		0EB487CB1E5EEC5700DC1B64 /* NSDate+PWAdd.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDate+PWAdd.m"; sourceTree = "<group>"; };
+		0EB487CD1E602AFB00DC1B64 /* UIColor+PWAdd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+PWAdd.h"; sourceTree = "<group>"; };
+		0EB487CE1E602AFB00DC1B64 /* UIColor+PWAdd.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+PWAdd.m"; sourceTree = "<group>"; };
 		0EF06DC81E5ACA7000B84DCF /* PWUtilsDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PWUtilsDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0EF06DCC1E5ACA7000B84DCF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		0EF06DCE1E5ACA7000B84DCF /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -117,6 +120,8 @@
 				0EF06DE51E5ACB8A00B84DCF /* NSMutableArray+PWAdd.m */,
 				0EF06DE31E5ACB1D00B84DCF /* PWUtils.h */,
 				0EB487BD1E5ED17C00DC1B64 /* PWUtilsMacro.h */,
+				0EB487CD1E602AFB00DC1B64 /* UIColor+PWAdd.h */,
+				0EB487CE1E602AFB00DC1B64 /* UIColor+PWAdd.m */,
 				0EB487BA1E5ED16400DC1B64 /* UIImage+PWAdd.h */,
 				0EB487BB1E5ED16400DC1B64 /* UIImage+PWAdd.m */,
 				0EB487C11E5ED73F00DC1B64 /* UIResponder+PWAdd.h */,
@@ -213,6 +218,7 @@
 				0EF06DE61E5ACB8A00B84DCF /* NSMutableArray+PWAdd.m in Sources */,
 				0EB487B91E5ECE5B00DC1B64 /* NSArray+PWAdd.m in Sources */,
 				0EF06DCD1E5ACA7000B84DCF /* main.m in Sources */,
+				0EB487CF1E602AFB00DC1B64 /* UIColor+PWAdd.m in Sources */,
 				0EB487CC1E5EEC5700DC1B64 /* NSDate+PWAdd.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

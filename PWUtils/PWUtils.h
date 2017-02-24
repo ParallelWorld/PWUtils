@@ -16,6 +16,7 @@
 #import "NSDate+PWAdd.h"
 #import "NSMutableArray+PWAdd.h"
 
+#import "UIColor+PWAdd.h"
 #import "UIImage+PWAdd.h"
 #import "UIResponder+PWAdd.h"
 #import "UIScreen+PWAdd.h"

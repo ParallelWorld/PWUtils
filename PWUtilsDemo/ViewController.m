@@ -20,8 +20,9 @@
     [super viewDidLoad];
 
     NSDate *date = [NSDate date];
-    NSString *s = [date pw_stringWithFormat:@"yyyy-MM-dd HH:mm:ss"];
     NSLog(@"%@", @(date.pw_year));
+    
+    self.view.backgroundColor = [UIColor pw_colorWithHex:0xff552e];
 }
 
 - (IBAction)click:(id)sender {
