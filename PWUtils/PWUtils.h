@@ -17,6 +17,7 @@
 #import "NSData+PWAdd.h"
 #import "NSDate+PWAdd.h"
 #import "NSDictionary+PWAdd.h"
+#import "NSFileManager+PWAdd.h"
 #import "NSMutableArray+PWAdd.h"
 #import "NSMutableDictionary+PWAdd.h"
 #import "NSObject+PWAdd.h"
