@@ -25,6 +25,7 @@
 		0EB487E81E612C6200DC1B64 /* UIScrollView+PWAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = 0EB487E71E612C6200DC1B64 /* UIScrollView+PWAdd.m */; };
 		0EB487EB1E612EAA00DC1B64 /* UITableView+PWAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = 0EB487EA1E612EAA00DC1B64 /* UITableView+PWAdd.m */; };
 		0EB487EE1E61444700DC1B64 /* NSFileManager+PWAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = 0EB487ED1E61444700DC1B64 /* NSFileManager+PWAdd.m */; };
+		0EB487F11E6145C300DC1B64 /* UIApplication+PWAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = 0EB487F01E6145C300DC1B64 /* UIApplication+PWAdd.m */; };
 		0EF06DCD1E5ACA7000B84DCF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0EF06DCC1E5ACA7000B84DCF /* main.m */; };
 		0EF06DD01E5ACA7000B84DCF /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0EF06DCF1E5ACA7000B84DCF /* AppDelegate.m */; };
 		0EF06DD31E5ACA7000B84DCF /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0EF06DD21E5ACA7000B84DCF /* ViewController.m */; };
@@ -73,6 +74,8 @@
 		0EB487EA1E612EAA00DC1B64 /* UITableView+PWAdd.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITableView+PWAdd.m"; sourceTree = "<group>"; };
 		0EB487EC1E61444700DC1B64 /* NSFileManager+PWAdd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSFileManager+PWAdd.h"; sourceTree = "<group>"; };
 		0EB487ED1E61444700DC1B64 /* NSFileManager+PWAdd.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSFileManager+PWAdd.m"; sourceTree = "<group>"; };
+		0EB487EF1E6145C300DC1B64 /* UIApplication+PWAdd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIApplication+PWAdd.h"; sourceTree = "<group>"; };
+		0EB487F01E6145C300DC1B64 /* UIApplication+PWAdd.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIApplication+PWAdd.m"; sourceTree = "<group>"; };
 		0EF06DC81E5ACA7000B84DCF /* PWUtilsDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PWUtilsDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0EF06DCC1E5ACA7000B84DCF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		0EF06DCE1E5ACA7000B84DCF /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -164,6 +167,8 @@
 				0EF06DE31E5ACB1D00B84DCF /* PWUtils.h */,
 				0EB487DF1E60456100DC1B64 /* PWUtilsFunction.h */,
 				0EB487BD1E5ED17C00DC1B64 /* PWUtilsMacro.h */,
+				0EB487EF1E6145C300DC1B64 /* UIApplication+PWAdd.h */,
+				0EB487F01E6145C300DC1B64 /* UIApplication+PWAdd.m */,
 				0EB487E31E60572700DC1B64 /* UIButton+PWAdd.h */,
 				0EB487E41E60572700DC1B64 /* UIButton+PWAdd.m */,
 				0EB487CD1E602AFB00DC1B64 /* UIColor+PWAdd.h */,
@@ -262,6 +267,7 @@
 			files = (
 				0EB487BC1E5ED16400DC1B64 /* UIImage+PWAdd.m in Sources */,
 				0EB487D21E60331B00DC1B64 /* NSString+PWAdd.m in Sources */,
+				0EB487F11E6145C300DC1B64 /* UIApplication+PWAdd.m in Sources */,
 				0EB487E81E612C6200DC1B64 /* UIScrollView+PWAdd.m in Sources */,
 				0EB487C91E5EE9B500DC1B64 /* UIViewController+PWAdd.m in Sources */,
 				0EB487D81E60334800DC1B64 /* NSDictionary+PWAdd.m in Sources */,
