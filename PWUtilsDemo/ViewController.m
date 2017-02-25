@@ -22,6 +22,10 @@
 
     PW_LOG_VAR(CGSizeMake(32, 23323));
     [self.button pw_setBackgroundColor:UIColor.redColor forState:UIControlStateNormal];
+    BOOL isLargerThan7 = PW_SYSTEM_VERSION_MORE_THAN(7.0);
+    PW_LOG_VAR(isLargerThan7);
+    
+    long long space = [UIDevice currentDevice].pw_diskSpace;
 }
 
 - (IBAction)click:(id)sender {
