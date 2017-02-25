@@ -10,8 +10,10 @@
 
 @interface NSObject (PWAdd)
 
+/// 属性名数组
 - (NSArray<NSString *> *)pw_propertyNames;
 
+/// 序列化
 - (void)pw_encodeWithCoder:(NSCoder *)aCoder;
 - (void)pw_decodeWithCoder:(NSCoder *)aCoder;
 

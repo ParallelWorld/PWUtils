@@ -10,4 +10,7 @@
 
 @interface NSData (PWAdd)
 
+/// Returns the content type as string for an image data, such as image/jpeg, image/gif.
++ (NSString *)pw_contentTypeForImageData:(NSData *)data;
+
 @end

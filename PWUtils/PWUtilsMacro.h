@@ -53,6 +53,4 @@ static className *_instanceOf##className; \
 #define PW_STRONGIFY(object) __typeof__(object) object = weak##_##object;
 
 
-
-
 #endif /* PWUtilsMacro_h */
