@@ -29,6 +29,7 @@
 #import "UIResponder+PWAdd.h"
 #import "UIScreen+PWAdd.h"
 #import "UIScrollView+PWAdd.h"
+#import "UITableView+PWAdd.h"
 #import "UIView+PWAdd.h"
 #import "UIViewController+PWAdd.h"
 

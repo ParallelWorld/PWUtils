@@ -25,7 +25,6 @@
     BOOL isLargerThan7 = PW_SYSTEM_VERSION_MORE_THAN(7.0);
     PW_LOG_VAR(isLargerThan7);
     
-    long long space = [UIDevice currentDevice].pw_diskSpace;
 }
 
 - (IBAction)click:(id)sender {
