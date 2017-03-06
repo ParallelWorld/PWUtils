@@ -34,6 +34,7 @@
 
 - (void)pw_addControllerClass:(Class)clazz swipeBackEnabled:(BOOL)enabled {
     if (enabled) {
+        [self.pw_noSwipeBackControllerClasses removeObject:clazz];
         return;
     }
     [self.pw_noSwipeBackControllerClasses addObject:clazz];
@@ -62,6 +63,7 @@
     return YES;
 }
 
+/// 不能左滑返回的controllerClass集合
 - (NSMutableSet<Class> *)pw_noSwipeBackControllerClasses {
     NSMutableSet *classes = objc_getAssociatedObject(self, _cmd);
     if (!classes) {
