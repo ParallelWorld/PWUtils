@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0E88AFAC1E6D2F530045401A /* UIViewController+PWSwipeBack.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E88AFAB1E6D2F530045401A /* UIViewController+PWSwipeBack.m */; };
 		0EB487B91E5ECE5B00DC1B64 /* NSArray+PWAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = 0EB487B81E5ECE5B00DC1B64 /* NSArray+PWAdd.m */; };
 		0EB487BC1E5ED16400DC1B64 /* UIImage+PWAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = 0EB487BB1E5ED16400DC1B64 /* UIImage+PWAdd.m */; };
 		0EB487C01E5ED1B000DC1B64 /* UIView+PWAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = 0EB487BF1E5ED1B000DC1B64 /* UIView+PWAdd.m */; };
@@ -33,9 +34,12 @@
 		0EF06DD81E5ACA7000B84DCF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0EF06DD71E5ACA7000B84DCF /* Assets.xcassets */; };
 		0EF06DDB1E5ACA7000B84DCF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0EF06DD91E5ACA7000B84DCF /* LaunchScreen.storyboard */; };
 		0EF06DE61E5ACB8A00B84DCF /* NSMutableArray+PWAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = 0EF06DE51E5ACB8A00B84DCF /* NSMutableArray+PWAdd.m */; };
+		F3C24F6B5A5F1CDAF6200CD8 /* libPods-PWUtilsDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C119C397795F0AD3AEAEB486 /* libPods-PWUtilsDemo.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0E88AFAA1E6D2F530045401A /* UIViewController+PWSwipeBack.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+PWSwipeBack.h"; sourceTree = "<group>"; };
+		0E88AFAB1E6D2F530045401A /* UIViewController+PWSwipeBack.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+PWSwipeBack.m"; sourceTree = "<group>"; };
 		0EB487B71E5ECE5B00DC1B64 /* NSArray+PWAdd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+PWAdd.h"; sourceTree = "<group>"; };
 		0EB487B81E5ECE5B00DC1B64 /* NSArray+PWAdd.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+PWAdd.m"; sourceTree = "<group>"; };
 		0EB487BA1E5ED16400DC1B64 /* UIImage+PWAdd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+PWAdd.h"; sourceTree = "<group>"; };
@@ -89,6 +93,9 @@
 		0EF06DE31E5ACB1D00B84DCF /* PWUtils.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PWUtils.h; sourceTree = "<group>"; };
 		0EF06DE41E5ACB8A00B84DCF /* NSMutableArray+PWAdd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSMutableArray+PWAdd.h"; sourceTree = "<group>"; };
 		0EF06DE51E5ACB8A00B84DCF /* NSMutableArray+PWAdd.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSMutableArray+PWAdd.m"; sourceTree = "<group>"; };
+		7F9AB8269FB146F94CF2DCEC /* Pods-PWUtilsDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PWUtilsDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-PWUtilsDemo/Pods-PWUtilsDemo.release.xcconfig"; sourceTree = "<group>"; };
+		C119C397795F0AD3AEAEB486 /* libPods-PWUtilsDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-PWUtilsDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FD1969BB152236C77B17B247 /* Pods-PWUtilsDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PWUtilsDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PWUtilsDemo/Pods-PWUtilsDemo.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,6 +103,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F3C24F6B5A5F1CDAF6200CD8 /* libPods-PWUtilsDemo.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -108,6 +116,8 @@
 				0EF06DE21E5ACABA00B84DCF /* PWUtils */,
 				0EF06DCA1E5ACA7000B84DCF /* PWUtilsDemo */,
 				0EF06DC91E5ACA7000B84DCF /* Products */,
+				614640E59479611F8A6158A9 /* Pods */,
+				E5178FE101CB94AD306C94EB /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -189,8 +199,27 @@
 				0EB487BF1E5ED1B000DC1B64 /* UIView+PWAdd.m */,
 				0EB487C71E5EE9B500DC1B64 /* UIViewController+PWAdd.h */,
 				0EB487C81E5EE9B500DC1B64 /* UIViewController+PWAdd.m */,
+				0E88AFAA1E6D2F530045401A /* UIViewController+PWSwipeBack.h */,
+				0E88AFAB1E6D2F530045401A /* UIViewController+PWSwipeBack.m */,
 			);
 			path = PWUtils;
+			sourceTree = "<group>";
+		};
+		614640E59479611F8A6158A9 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				FD1969BB152236C77B17B247 /* Pods-PWUtilsDemo.debug.xcconfig */,
+				7F9AB8269FB146F94CF2DCEC /* Pods-PWUtilsDemo.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		E5178FE101CB94AD306C94EB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C119C397795F0AD3AEAEB486 /* libPods-PWUtilsDemo.a */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -200,9 +229,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 0EF06DDF1E5ACA7000B84DCF /* Build configuration list for PBXNativeTarget "PWUtilsDemo" */;
 			buildPhases = (
+				731AA6C1DE56BAA169DDA1BB /* [CP] Check Pods Manifest.lock */,
 				0EF06DC41E5ACA7000B84DCF /* Sources */,
 				0EF06DC51E5ACA7000B84DCF /* Frameworks */,
 				0EF06DC61E5ACA7000B84DCF /* Resources */,
+				4811272652F35CDCB47FB75D /* [CP] Embed Pods Frameworks */,
+				2C39211D8AE740CDF9C3BDA3 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -260,12 +292,61 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		2C39211D8AE740CDF9C3BDA3 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PWUtilsDemo/Pods-PWUtilsDemo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4811272652F35CDCB47FB75D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PWUtilsDemo/Pods-PWUtilsDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		731AA6C1DE56BAA169DDA1BB /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		0EF06DC41E5ACA7000B84DCF /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				0EB487BC1E5ED16400DC1B64 /* UIImage+PWAdd.m in Sources */,
+				0E88AFAC1E6D2F530045401A /* UIViewController+PWSwipeBack.m in Sources */,
 				0EB487D21E60331B00DC1B64 /* NSString+PWAdd.m in Sources */,
 				0EB487F11E6145C300DC1B64 /* UIApplication+PWAdd.m in Sources */,
 				0EB487E81E612C6200DC1B64 /* UIScrollView+PWAdd.m in Sources */,
@@ -403,6 +484,7 @@
 		};
 		0EF06DE01E5ACA7000B84DCF /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FD1969BB152236C77B17B247 /* Pods-PWUtilsDemo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 65UUVDTS99;
@@ -415,6 +497,7 @@
 		};
 		0EF06DE11E5ACA7000B84DCF /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7F9AB8269FB146F94CF2DCEC /* Pods-PWUtilsDemo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 65UUVDTS99;
